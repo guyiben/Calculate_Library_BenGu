@@ -4,8 +4,8 @@
 //Version 0
 public class Calculate {
 	
-	public int square(int number) {
-		return number*number}
+	public static int square(int number){
+		return number*number;
 	}
 	
 }
