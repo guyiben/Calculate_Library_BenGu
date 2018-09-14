@@ -22,5 +22,24 @@ public class Calculate {
 	public static double toRadians(double deg){
 		return (deg*3.14159/180);
 	}
-	
+	public static double discriminant(double a, double b, double c){
+		return (b*b-4*a*c);
+	}
+	public static String toImproperFrac(int a, int b, int c){
+		int num=(a*c+b);
+		int den=c;
+		return (num+"/"+den);
+	}
+	public static String toMixedNum(int a, int b){
+		int whole=(a-a%b)/b;
+		int num=a%b;
+		int den=b;
+		return (whole+"_"+num+"/"+den);
+	}
+	public static String foil(int a, int b, int c, int d, char e){
+		int number1=(a*c);
+		char var=e;
+		return (number1+var+"^2"+"+"+(a*d+b*c)+var+"+"+b*d);
+
+	}
 }
