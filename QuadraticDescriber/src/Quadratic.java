@@ -63,8 +63,23 @@ public class Quadratic {
 
 	//return describtion
 	public static String quadrDescriber (double a, double b, double c) {
-		return ("x-intercept:"+ Quadratic.quadForm (a, b, c));
-		return ("y-intercept:"+ c);
+		String z="description of graph of: y=" + a +"x^2" + b + "x" + c;
+		String v=("x-intercept(s):"+ Quadratic.quadForm (a, b, c));
+		String u="y-intercept:"+ c;
+		if (a>0) {
+			String y="open: up";
+		}
+		if (a<0) {
+			String y="open: down";
+		}
+		String y="";
+		double d= b/-2/a;
+		String x= "axis of symmetry:" + d;
+		double e= a*d*d+b*d+c;
+		String w= "vertex:(" + d + "," + e + ")";
+		
+		return (z \n y \n x \n x \n w \n v \n u);
+				
 
 }
 }
