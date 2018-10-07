@@ -78,7 +78,7 @@ public class Quadratic {
 		double e= a*d*d+b*d+c;
 		String w= "vertex:(" + d + "," + e + ")";
 		
-		return (z \n y \n x \n x \n w \n v \n u);
+		return (z \n y \n x \n w \n v \n u);
 				
 
 }
