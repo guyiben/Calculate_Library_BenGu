@@ -80,7 +80,7 @@ public class Quadratic {
 		
 		String done=z+"\n"+y+"\n"+x+"\n"+w+"\n"+v+"\n"+u;
 		
-		return done
+		return done;
 				
 
 }
